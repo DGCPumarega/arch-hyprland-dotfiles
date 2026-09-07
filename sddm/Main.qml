@@ -103,7 +103,7 @@ Rectangle {
             spacing: 20 * s
             Text {
                 id: hT; text: Qt.formatTime(new Date(), "HH")
-                color: "white"; font.family: sm.name; font.pixelSize: 100 * s; font.letterSpacing: -4 * s
+                color: "white"; font.family: sm.name; font.pixelSize: 100 * s; font.letterSpacing: 1 * s
                 Timer { interval: 60000; running: true; repeat: true; onTriggered: hT.text = Qt.formatTime(new Date(), "HH") }
                 layer.enabled: true; layer.effect: DropShadow { color: "#80000000"; radius: 6; samples: 8; horizontalOffset: 2 * s; verticalOffset: 2 * s }
             }
@@ -113,7 +113,7 @@ Rectangle {
             
             Text {
                 id: mT; text: Qt.formatTime(new Date(), "mm")
-                color: root.signTeal; font.family: sm.name; font.pixelSize: 100 * s; font.letterSpacing: -4 * s
+                color: root.signTeal; font.family: sm.name; font.pixelSize: 100 * s; font.letterSpacing: 1 * s
                 Timer { interval: 1000; running: true; repeat: true; onTriggered: mT.text = Qt.formatTime(new Date(), "mm") }
                 layer.enabled: true; layer.effect: DropShadow { color: "#80000000"; radius: 6; samples: 8; horizontalOffset: 2 * s; verticalOffset: 2 * s }
             }
@@ -121,8 +121,9 @@ Rectangle {
         
         Text {
             text: Qt.formatDate(new Date(), "dddd, MMMM d").toUpperCase()
-            color: "white"; font.family: sm.name; font.pixelSize: 12 * s; font.letterSpacing: 8 * s
+            color: "white"; font.family: sm.name; font.pixelSize: 14 * s; font.letterSpacing: 8 * s
             opacity: 0.8
+            leftPadding: 12
             layer.enabled: true; layer.effect: DropShadow { color: "#80000000"; radius: 4; samples: 8; horizontalOffset: 1; verticalOffset: 1 }
         }
     }
