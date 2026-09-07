@@ -54,3 +54,10 @@ vim.o.confirm = true
 --  Schedule the setting after `UiEnter` because it can increase startup-time.
 vim.schedule(function() vim.o.clipboard = 'unnamedplus' end)
 
+-- Convert tabs to 4 spaces
+vim.o.expandtab = true
+vim.o.tabstop = 4
+
+-- Default to 4 spaces per indent
+vim.o.shiftwidth = 4
+

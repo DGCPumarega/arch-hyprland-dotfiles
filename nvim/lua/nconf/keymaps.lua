@@ -19,9 +19,16 @@ vim.keymap.set('n', '<C-up>', '<C-w><C-k>', { desc = 'Move focus to the upper wi
 --- Plugin Keybinds ---
 -----------------------
 
--- Open Neo-Tree
+-- neo-tree
 vim.keymap.set('n', '\\', '<Cmd>Neotree reveal<CR>')
 
--- Open Oil 
+-- oil 
 vim.keymap.set('n', '|', '<Cmd>Oil --float<CR>')
+
+-- fzf-lua
+vim.keymap.set('n', '<leader>ff', '<Cmd>FzfLua files<CR>')
+vim.keymap.set('n', '<leader>fg', '<Cmd>FzfLua grep<CR>')
+
+-- toggleterm
+vim.keymap.set('n', '<C-`>', '<Cmd>ToggleTerm<CR>')
 

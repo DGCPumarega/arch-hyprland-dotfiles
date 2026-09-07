@@ -82,14 +82,14 @@ require("neo-tree").setup({
       symbols = {
         -- Change type
         added = "", -- or "✚"
-        modified = ""
+        modified = "",
         deleted = "✖", -- this can only be used in the git_status source
         renamed = "󰁕", -- this can only be used in the git_status source
         -- Status type
         untracked = "",
-        ignored = "",
-        unstaged = "󰄱",
-        staged = "",
+        ignored = "", -- or "",
+        unstaged = "", -- or "󰄱",
+        staged = "", -- or "",
         conflict = "",
       },
     },
