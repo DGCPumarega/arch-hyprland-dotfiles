@@ -18,6 +18,7 @@ require 'nconf.plugin-manager'
 
 -- Plugins
 require 'nconf.plugins.catppuccin'
+require 'nconf.plugins.nvim-treesitter'
 require 'nconf.plugins.autopairs'
 require 'nconf.plugins.guess-indent'
 require 'nconf.plugins.oil'
@@ -27,4 +28,7 @@ require 'nconf.plugins.mason'
 require 'nconf.plugins.fzf-lua'
 require 'nconf.plugins.fidget'
 require 'nconf.plugins.toggleterm'
+require 'nconf.plugins.luasnip'
+require 'nconf.plugins.blink-cmp'
+require 'nconf.plugins.gitsigns'
 

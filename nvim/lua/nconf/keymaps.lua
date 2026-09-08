@@ -14,7 +14,6 @@ vim.keymap.set('n', '<C-right>', '<C-w><C-l>', { desc = 'Move focus to the right
 vim.keymap.set('n', '<C-down>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-up>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
-
 -----------------------
 --- Plugin Keybinds ---
 -----------------------
@@ -30,5 +29,5 @@ vim.keymap.set('n', '<leader>ff', '<Cmd>FzfLua files<CR>')
 vim.keymap.set('n', '<leader>fg', '<Cmd>FzfLua grep<CR>')
 
 -- toggleterm
-vim.keymap.set('n', '<C-`>', '<Cmd>ToggleTerm<CR>')
+vim.keymap.set('n', '<leader>t', '<Cmd>ToggleTerm<CR>')
 

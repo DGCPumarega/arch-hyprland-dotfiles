@@ -1,7 +1,7 @@
 local highlight_yank = vim.api.nvim_create_augroup('highlight-yank', { clear = true })
 local lsp_attach = vim.api.nvim_create_augroup('lsp-attach', { clear = true })
 local lsp_highlight = vim.api.nvim_create_augroup('lsp-highlight', { clear = false })
-local lsp_detach = vim.api.nvim_create_augroup('kickstart-lsp-detach', { clear = true })
+local lsp_detach = vim.api.nvim_create_augroup('lsp-detach', { clear = true })
 
 -- Highlight when yanking (copying) text
 vim.api.nvim_create_autocmd('TextYankPost', {
