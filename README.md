@@ -1,6 +1,7 @@
 # arch-hyprland-dotfiles
-This repo is a backup of the configuration files for my latest Arch Linux setup with Hyprland.  
-Since I know that I'm gonna forget how to do this setup after a few months, I've added a bunch of notes to this README for future reference.  
+This repo is a backup of the configuration files for my latest Arch Linux setup with Hyprland.
+
+Since I know that I'm gonna forget how to do this setup after a few months, I've added a bunch of notes to this README for future reference.
 
 
 ## Hyprland
@@ -63,8 +64,8 @@ Note that `v2` uses vim.pack to manage plugins, and requires Neovim 0.12+
 ## Miscellaneous Packages/Programs
 *Other stuff the setup would likely need*
 
-`noto-fonts` (all of them) - needed by browsers and other programs to render characters outside of the Latin alphabet
-`ttf-firacode-nerd` (or any other nerd font) - nerd fonts are often needed to render icons for programs like Neovim and Waybar
-`swayimg` - an image viewer
-`mpv` - a media player (and needed by `mpvpaper` for animated wallpapers)
+`noto-fonts` (all of them) - needed by browsers and other programs to render characters outside of the Latin alphabet  
+`ttf-firacode-nerd` (or any other nerd font) - nerd fonts are often needed to render icons for programs like Neovim and Waybar  
+`swayimg` - an image viewer  
+`mpv` - a media player (and needed by `mpvpaper` for animated wallpapers)  
 
